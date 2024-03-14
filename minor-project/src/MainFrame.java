@@ -54,7 +54,8 @@ public class MainFrame extends JFrame {
         button3.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(MainFrame.this, "Button 3 clicked!");
+                // JOptionPane.showMessageDialog(MainFrame.this, "Button 3 clicked!");
+                 new AlarmClock();
             }
         });
         buttonPanel.add(button3);
